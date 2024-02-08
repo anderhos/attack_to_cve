@@ -39,6 +39,9 @@ The vulnerability type mappings can include the following technique categories:
 3. Secondary Impact
 
 If one of these categories is not included in the mapping for a particular vulnerability type, use one of the other methods to find the appropriate techniques.
+Use one of the other methods to find the appropriate technique if:
+* One of the technique categories is not included in the mapping for a particular vulnerability type
+* The vulnerability type cannot be identified from the description
 
 #### Functionality Method
 
@@ -192,4 +195,4 @@ When the three methods above (Vulnerability Type, Functionality, and Exploit Tec
 
 ## CVE-2020-5210
 
-[CVE-2020-5210](https://nvd.nist.gov/vuln/detail/CVE-2020-5210) is a buffer overflow.  Since buffer overflows modify the memory, the "Memory Modification (Memory Buffer Errors, Pointer Issues, Type Errors, etc.)" vulnerability type is used, making the Primary Impacts [T1574](https://attack.mitre.org/techniques/T1574) (Hijack Execution Flow) and [T1499.004](https://attack.mitre.org/techniques/T1499/004) (Endpoint Denial of Service: Application or System Exploitation).  The vulnerability also has an exploitation technique mapping of [T1548.001](https://attack.mitre.org/techniques/T1548/001) (Abuse Elevation Control Mechanism: Setuid and Setgid).  The methodology does not list T1548.001 as an exploitation technique because it is relatively rare.
+[CVE-2020-5210](https://nvd.nist.gov/vuln/detail/CVE-2020-5210) is a buffer overflow.  Since buffer overflows modify the memory, the entry "Memory Modification (Memory Buffer Errors, Pointer Issues, Type Errors, etc.)" in the Functionality table is used, making the Primary Impacts [T1574](https://attack.mitre.org/techniques/T1574) (Hijack Execution Flow) and [T1499.004](https://attack.mitre.org/techniques/T1499/004) (Endpoint Denial of Service: Application or System Exploitation).  The vulnerability also has an exploitation technique mapping of [T1548.001](https://attack.mitre.org/techniques/T1548/001) (Abuse Elevation Control Mechanism: Setuid and Setgid).  The methodology does not list T1548.001 as an exploitation technique because it is relatively rare.
