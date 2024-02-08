@@ -180,15 +180,11 @@ When the three methods above (Vulnerability Type, Functionality, and Exploit Tec
 | Credential Access | T1212 (Exploitation for Credential Access) |
 | Lateral Movement | T1210 (Exploitation of Remote Services) |
 
-# Examples
+# More examples
 
 ## CVE-2020-6960
 
 [CVE-2020-6960](https://nvd.nist.gov/vuln/detail/CVE-2020-6960) is a SQL injection vulnerability.  The SQL injection listing the Vulnerability Type section contains mappings for the Primary Impact and Secondary Impact.  For the Primary Impact, the mapping is [T1059](https://attack.mitre.org/techniques/T1059) (Command and Scripting Interpreter).  For the Secondary Impact, there are several options to choose from.  Unfortunately, the CVE record does not provide enough information to choose a Secondary Impact.
-
-## CVE-2018-17900
-
-[CVE-2018-17900](https://nvd.nist.gov/vuln/detail/CVE-2018-17900) is about insecure credential handling.  The in "General Credential Management Errors" vulnerability type applies for this vulnerability.  In this case, both mappings in the methodology apply.  The Primary Impact is [T1552](https://attack.mitre.org/techniques/T1552) (Unsecured Credentials), when then leads to the Secondary Impact allowing the adversary to use [T1078](https://attack.mitre.org/techniques/T1078) (Valid Accounts).
 
 ## CVE-2020-11036
 
